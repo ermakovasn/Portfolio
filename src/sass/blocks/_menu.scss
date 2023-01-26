@@ -1,5 +1,5 @@
 .hamburger {
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 30px;
     height: 21px;
@@ -12,7 +12,7 @@
         display: block;
         width: 30px;
         height: 3px;
-        background-color: #fff;
+        background-color: $main-color;
     }
     span.long {
         width: 36px;
